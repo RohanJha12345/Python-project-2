@@ -12,7 +12,7 @@ st.title("Imports & Exports Data Visualization Dashboard")
 # Load the dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv("C:\\Users\\Rajiv Ranjan\\Downloads\\Imports_Exports_Dataset.csv")
+    df = pd.read_csv("Imports_Exports_Dataset.csv")
     return df
 
 # Load dataset
